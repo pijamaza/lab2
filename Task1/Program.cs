@@ -16,7 +16,7 @@ namespace Task1
             mailaddress.Country = "Ukraine";
             mailaddress.City = "Rovno";
             mailaddress.Street = "School";
-            mailaddress.House = 10;
+            mailaddress.House = 12;
             mailaddress.Apartment = 39;
 
             Console.WriteLine($"Index: {mailaddress.Index} | Country: {mailaddress.Country} | City: {mailaddress.City} | Street: {mailaddress.Street} | House: {mailaddress.House} | Apartment: {mailaddress.Apartment}");
