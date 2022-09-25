@@ -14,12 +14,17 @@ namespace Task1
             Address mailaddress = new Address();
             mailaddress.Index = 33004;
             mailaddress.Country = "Ukraine";
-            mailaddress.City = "Rovno";
-            mailaddress.Street = "School";
+            mailaddress.City = "Rivne";
+            mailaddress.Street = "Yvileyna";
             mailaddress.House = 10;
             mailaddress.Apartment = 39;
 
-            Console.WriteLine($"Index: {mailaddress.Index} | Country: {mailaddress.Country} | City: {mailaddress.City} | Street: {mailaddress.Street} | House: {mailaddress.House} | Apartment: {mailaddress.Apartment}");
+            Console.WriteLine($"Index: {mailaddress.Index}");
+            Console.WriteLine($"Country: {mailaddress.Country}");
+            Console.WriteLine($"City: {mailaddress.City}");
+            Console.WriteLine($"Street: {mailaddress.Street}");
+            Console.WriteLine($"House: {mailaddress.House}");
+            Console.WriteLine($"Apartment: {mailaddress.Apartment}");
         }
     }
 }

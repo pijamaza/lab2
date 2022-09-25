@@ -14,7 +14,7 @@ namespace Task2
             Converter exchange = new Converter();
             exchange.Usdtouah = 36.94;
             exchange.Eurotouah = 37.45;
-            exchange.Rublstouah = 0.61;
+            exchange.Rublstouah = 0.64;
 
             double UAH;
 
@@ -62,21 +62,21 @@ namespace Task2
                 choice = Console.ReadLine();
                 if (choice == "1")
                 {
-                    Console.WriteLine("Количество гривен:");
+                    Console.WriteLine("Количество рублей:");
                     UAH = double.Parse(Console.ReadLine());
-                    Console.WriteLine(exchange.Rublstouah * UAH + UAH + " RUB ");
+                    Console.WriteLine(exchange.Rublstouah * UAH + "грн");
                 }
                 else if (choice == "2")
                 {
-                    Console.WriteLine("Количество гривен:");
+                    Console.WriteLine("Количество доларов:");
                     UAH = double.Parse(Console.ReadLine());
-                    Console.WriteLine(exchange.Usdtouah * UAH + UAH + "$");
+                    Console.WriteLine(exchange.Usdtouah * UAH + "грн");
                 }
                 else if (choice == "3")
                 {
-                    Console.WriteLine("Количество гривен:");
+                    Console.WriteLine("Количество евро:");
                     UAH = double.Parse(Console.ReadLine());
-                    Console.WriteLine(exchange.Eurotouah * UAH + UAH + "€");
+                    Console.WriteLine(exchange.Eurotouah * UAH + "грн");
                 }
             }    
         }
